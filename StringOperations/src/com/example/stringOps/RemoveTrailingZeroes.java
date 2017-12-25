@@ -1,5 +1,9 @@
 package com.example.stringOps;
 
+/**
+ * @author Vidit 
+   25-Dec-2017 6:49:40 PM
+ */
 public class RemoveTrailingZeroes {
 
 	public static void main(String[] args) {

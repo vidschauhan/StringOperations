@@ -1,5 +1,9 @@
 package com.example.stringOps;
 
+/**
+ * @author Vidit 
+   25-Dec-2017 6:50:12 PM
+ */
 public class StringConversions {
 
 	public static void main(String[] args) {

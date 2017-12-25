@@ -1,5 +1,9 @@
 package com.example.stringOps;
 
+/**
+ * @author Vidit 
+   25-Dec-2017 6:50:00 PM
+ */
 public class StringBufferExample {
 
 	public static void main(String[] args) {
