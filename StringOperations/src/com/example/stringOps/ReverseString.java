@@ -8,7 +8,7 @@ public class ReverseString {
 
 	public static void main(String[] args) {
 		
-		String name = "Vidit";
+		String name = "Vidit is a smart boy";
 		char[] arr = name.toCharArray();
 		StringBuilder reverseString = new StringBuilder();
 		int strLength = name.length();

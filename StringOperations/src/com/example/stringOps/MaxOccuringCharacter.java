@@ -12,7 +12,9 @@ public class MaxOccuringCharacter {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		System.out.println("Enter the string : ");
-		maxOccur(new Scanner(System.in).nextLine());
+		String str = new Scanner(System.in).nextLine();
+		maxOccur(str);
+		stringFormatter(str);
 	}
 
 	private static void maxOccur(String str) {
@@ -41,5 +43,20 @@ public class MaxOccuringCharacter {
 				.max((p1, p2) -> Integer.compare(p1.getValue(), p2.getValue())).get();
 
 		System.out.printf("Max occured word : %s = %s", Mapentry.getKey(), Mapentry.getValue());
+	}
+
+	private static void stringFormatter(String str) {
+		char[] ch  = str.toCharArray();
+		int i=0;
+		StringBuilder formattedString = new StringBuilder();
+		while(i <str.length()) {
+			if(ch[i]==' ') {
+				formattedString.append("%20");
+			}else {
+				formattedString.append(ch[i]);
+			}
+			i++;
+		}
+		System.out.println(formattedString);
 	}
 }
